@@ -22,3 +22,9 @@ shellcode:
 http://shell-storm.org/shellcode/files/shellcode-575.html
 
 https://beta.hackndo.com/buffer-overflow/
+
+### https://visualgdb.com/
+
+## gdb
+
+set disassembly-flavor intel
