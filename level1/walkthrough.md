@@ -1,8 +1,10 @@
 # level1
 
 We found an exec level1 so we run it in ghidra.
-inside we found a function main and run. 
+inside we found a function main and run.
 Run has a system call to (/bin/sh) and main assigns a char variable with 76 bytes and inserts this variable into the function gets().
+
+run starts at address 0x08048444, we want to redirect here after the buffer from gets().
 
 gets() has an exploit because it reads from stdin and ends with a newline. It can be used for a buffer overflow.
 

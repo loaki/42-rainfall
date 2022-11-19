@@ -2,7 +2,7 @@
 
 There is an exec level3, we bring to local data.
 when dissasemble with ghidra we find function main() calls fn v().
-v() checks if the variable m is equal to 64 bytes and then runs /bin/sh. again buffer overflow. 
+v() checks if the variable m is equal to 64 bytes and then runs /bin/sh. 
 
 Printf has some exploits in its formated string. so try to inject the address of m.
 
